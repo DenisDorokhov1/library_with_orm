@@ -1,0 +1,7 @@
+services:
+  app:
+    build: 
+      dockerfile: Dockerfile
+    command: python api.py
+    ports:
+      - "8000:8080"
